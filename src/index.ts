@@ -5,7 +5,7 @@
  * 
  * @example
  * ```typescript
- * import { SendrClient } from '@sendr/sendr';
+ * import { SendrClient } from 'sendr-js';
  * 
  * const client = new SendrClient({ apiKey: 'your-api-key' });
  * 

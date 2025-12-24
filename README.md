@@ -1,11 +1,11 @@
-# @sendr/sendr
+# sendr-js
 
 Official Sendr email platform SDK for Node.js and TypeScript. Send transactional emails easily with a simple, type-safe API.
 
 ## Installation
 
 ```bash
-npm install @sendr/sendr
+npm install sendr-js
 ```
 
 **Requirements:** Node.js 18.0.0 or higher (uses native `fetch` API)
@@ -13,7 +13,7 @@ npm install @sendr/sendr
 ## Quick Start
 
 ```typescript
-import { SendrClient } from '@sendr/sendr';
+import { SendrClient } from 'sendr-js';
 
 // Initialize the client with your API key
 const client = new SendrClient({
@@ -317,7 +317,7 @@ interface EmailLog {
 The SDK throws `SendrError` for API errors:
 
 ```typescript
-import { SendrError } from '@sendr/sendr';
+import { SendrError } from 'sendr-js';
 
 try {
   await client.sendEmail({ ... });
