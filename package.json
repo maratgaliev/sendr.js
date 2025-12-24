@@ -1,0 +1,40 @@
+{
+  "name": "@sendr/sendr",
+  "version": "1.0.0",
+  "description": "Official Sendr email platform SDK for Node.js and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "node test-local.js",
+    "test:link": "npm run build && npm link"
+  },
+  "keywords": [
+    "sendr",
+    "email",
+    "email-api",
+    "email-sdk",
+    "transactional-email",
+    "email-service"
+  ],
+  "author": "Sendr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maratgaliev/sendr.js.git"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
