@@ -1,5 +1,5 @@
 {
-  "name": "@sendr/sendr",
+  "name": "sendr-js",
   "version": "1.0.0",
   "description": "Official Sendr email platform SDK for Node.js and TypeScript",
   "main": "dist/index.js",
